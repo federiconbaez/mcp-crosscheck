@@ -68,8 +68,9 @@ class StdioConn:
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env, cwd=cwd)
         self.lines = queue.Queue()
         self.stderr = []
-        threading.Thread(target=self._pump_out, daemon=True).start()
-        threading.Thread(target=self._pump_err, daemon=True).start()
+        self.pumps = [threading.Thread(target=self._pump_out, daemon=True), threading.Thread(target=self._pump_err, daemon=True)]
+        for t in self.pumps:
+            t.start()
         self.n = 0
 
     def _pump_out(self):
@@ -147,11 +148,22 @@ class StdioConn:
         except subprocess.TimeoutExpired:
             self.proc.kill()
             self.proc.wait(5)
+        self._release()
         return self.proc.returncode
+
+    def _release(self):
+        for t in self.pumps:
+            t.join(3)
+        for f in (self.proc.stdout, self.proc.stderr):
+            try:
+                f.close()
+            except OSError:
+                pass
 
     def kill(self):
         self.proc.send_signal(signal.SIGKILL)
         self.proc.wait(5)
+        self._release()
 
 
 class HttpConn:

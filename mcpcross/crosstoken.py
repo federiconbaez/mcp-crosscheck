@@ -1,7 +1,8 @@
 """Cross-token tests: a token minted by family member S is presented to member D, for every ordered pair (S, D).
 
 Layers (each isolates one reason a token may be refused):
-  L1  every member has its OWN secret                      -> only S == D accepted (different secret must be rejected)
+  L1  every member has its OWN secret, ONE shared audience -> only S == D accepted (different secret must be rejected; the shared
+      audience (+ --allow-kidless for auth-hardened) makes sure ONLY the signature can be the reason)
   L2  all members share ONE secret + issuer, own audience  -> only S == D accepted (audience binding must reject;
                                                               mcp-auth-hardened additionally refuses kid-less tokens)
   L2b same as L2 but mcp-auth-hardened runs with --allow-kidless -> only S == D accepted (isolates the audience reason)
@@ -15,7 +16,7 @@ from . import launch, targets as tgt
 from .client import Client
 
 LAYERS = [
-    ("L1", "separate secrets", "accept only when source == destination"),
+    ("L1", "separate secrets, shared audience, auth --allow-kidless", "accept only when source == destination (rejection reason: signature)"),
     ("L2", "shared secret, per-member audience (strict kid)", "accept only when source == destination"),
     ("L2b", "shared secret, per-member audience, auth --allow-kidless", "accept only when source == destination"),
     ("L3", "shared secret + shared audience, auth --allow-kidless", "accept every pair; token must be usable"),
@@ -33,8 +34,8 @@ def _configs(layer, tlist):
     for t in tlist:
         cfg[t.name] = {
             "secret": secrets.token_hex(24) if layer == "L1" else shared,
-            "audience": SHARED_AUD if layer == "L3" else t.audience,
-            "kidless": layer in ("L2b", "L3"),
+            "audience": SHARED_AUD if layer in ("L1", "L3") else t.audience,
+            "kidless": layer in ("L1", "L2b", "L3"),
         }
     return cfg
 
