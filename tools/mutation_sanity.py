@@ -31,7 +31,7 @@ MUTANTS = [
     ("C5", "mcp-memory-first", "mcp-base", "auth.py", 'if claims.get("iss") != self.issuer:', "if False:",
      "issuer is not checked", "battery"),
     ("C6", "mcp-auth-hardened", "mcp-base", "auth.py", "if not (self.allow_kidless and alg == \"HS256\"):", "if False:",
-     "kid-less tokens accepted without the flag", "battery"),
+     "kid-less tokens accepted without the flag", "cross-token L3s"),
     ("C7", "mcp-auth-hardened", "mcp-base", "auth.py",
      "            if not self.keyring.check_signature(signing_input, signature, key):\n                raise AuthError(\"invalid_token\", \"signature verification failed\", reason=\"bad_signature\")\n        try:",
      "            if False:\n                raise AuthError(\"invalid_token\", \"signature verification failed\", reason=\"bad_signature\")\n        try:",

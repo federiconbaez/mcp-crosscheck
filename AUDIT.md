@@ -49,7 +49,7 @@ PY
 ```
 
 Expected: `battery` has `fail: 0, error: 0` for each of 8 (server, transport) pairs (a few `skip`s are listed with reasons -
-`XC-CAP-03` is skipped where `listChanged` is not advertised); `differential` 0 disagreements; all four layers PASS.
+`XC-CAP-03` is skipped where `listChanged` is not advertised); `differential` 0 disagreements; all five layers (L1, L2, L2b, L3, L3s) PASS.
 
 ## Step 4 - read the oracle, not the verdict
 
@@ -124,5 +124,5 @@ printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocol
 * `XC-CAP-03` is skipped where `listChanged` is not advertised (3 of 4 servers); the push path is only exercised on `mcp-resource-heavy`.
 * Timing-sensitive checks (concurrency, notification arrival) use fixed timeouts; on a heavily loaded machine a harness timeout may
   surface as `error`. During development one cross-token run failed once while two heavy evidence builds ran in parallel; it
-  did not reproduce in 40+ idle repeats (see ORIGINALITY.md "bugs found").
+  did not reproduce in 30+ idle repeats (see ORIGINALITY.md "bugs found").
 * Tokens are minted with each server's own CLI; the crosscheck does not independently implement HS256 signing (it only mutates tokens: bit flip, `alg=none`).

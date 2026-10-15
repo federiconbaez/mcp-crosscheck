@@ -90,7 +90,7 @@ def s5(ctx):
 def s6(ctx):
     reasons = set()
     for layer in ctx["rep"]["crosstoken"]["layers"]:
-        if layer["layer"] == "L3":
+        if layer["layer"] in ("L3", "L3s"):
             continue
         for tr, v in layer["transports"].items():
             for s, row in v["matrix"].items():
@@ -114,6 +114,22 @@ def s7(ctx):
                 n += 1
     assert n == 32
     return "%d/32 accepted (16 pairs x 2 transports)" % n
+
+
+@step("cross-token L3s: auth-hardened STRICT refuses kid-less foreign tokens, accepts everything else")
+def s7b(ctx):
+    l = [l for l in ctx["rep"]["crosstoken"]["layers"] if l["layer"] == "L3s"][0]
+    refused = set()
+    for tr, v in l["transports"].items():
+        for s, row in v["matrix"].items():
+            for d, cell in row.items():
+                if cell["outcome"] == "reject":
+                    assert d == "auth" and s != "auth" and "kid" in cell["reason"].lower(), (tr, s, d, cell)
+                    refused.add(s)
+                else:
+                    assert cell["usable"], (tr, s, d)
+    assert refused == {"base", "memory", "resources"}
+    return "refused sources: %s (reason: missing kid); all other pairs accepted" % ", ".join(sorted(refused))
 
 
 def broken_family(proj, fname, old, new, partner="mcp-memory-first"):

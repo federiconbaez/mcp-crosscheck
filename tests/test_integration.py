@@ -38,12 +38,13 @@ class FullFamily(unittest.TestCase):
 
     def test_cross_token_matrix(self):
         cross = crosstoken.run_crosstoken(self.targets, FAMILY, ("stdio", "http"))
+        self.assertEqual([l["layer"] for l in cross["layers"]], ["L1", "L2", "L2b", "L3", "L3s"])
         for layer in cross["layers"]:
             for tr, v in layer["transports"].items():
                 for s, row in v["matrix"].items():
                     for d, cell in row.items():
                         self.assertTrue(cell["ok"], (layer["layer"], tr, s, d, cell))
-        want = {"L1": "signature", "L2b": "audience"}   # each layer isolates ONE reason for refusal
+        want = {"L1": "signature", "L2b": "audience", "L3s": "kid"}   # each layer isolates ONE reason for refusal
         for layer in cross["layers"]:
             if layer["layer"] in want:
                 for tr, v in layer["transports"].items():
@@ -51,6 +52,9 @@ class FullFamily(unittest.TestCase):
                         for d, cell in row.items():
                             if s != d:
                                 self.assertIn(want[layer["layer"]], cell["reason"].lower(), (layer["layer"], tr, s, d, cell))
+        l3s = [l for l in cross["layers"] if l["layer"] == "L3s"][0]
+        refused = [(s, d) for v in l3s["transports"].values() for s, row in v["matrix"].items() for d, c in row.items() if c["outcome"] == "reject"]
+        self.assertEqual(sorted(set(refused)), [("base", "auth"), ("memory", "auth"), ("resources", "auth")])
         l3 = [l for l in cross["layers"] if l["layer"] == "L3"][0]
         accepted = sum(1 for v in l3["transports"].values() for row in v["matrix"].values() for c in row.values() if c["outcome"] == "accept")
         self.assertEqual(accepted, 16 * 2)

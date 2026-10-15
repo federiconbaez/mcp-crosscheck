@@ -8,6 +8,9 @@ Layers (each isolates one reason a token may be refused):
   L2b same as L2 but mcp-auth-hardened runs with --allow-kidless -> only S == D accepted (isolates the audience reason)
   L3  all members share ONE secret + issuer + audience, mcp-auth-hardened runs with --allow-kidless
                                                            -> every pair accepted and the token is USABLE (tools/list works)
+  L3s same as L3 but mcp-auth-hardened runs STRICT (no --allow-kidless)
+                                                           -> every pair accepted EXCEPT a token minted by another member
+                                                              presented to mcp-auth-hardened, which must be refused for its missing kid
 """
 import concurrent.futures
 import secrets
@@ -20,12 +23,20 @@ LAYERS = [
     ("L2", "shared secret, per-member audience (strict kid)", "accept only when source == destination"),
     ("L2b", "shared secret, per-member audience, auth --allow-kidless", "accept only when source == destination"),
     ("L3", "shared secret + shared audience, auth --allow-kidless", "accept every pair; token must be usable"),
+    ("L3s", "shared secret + shared audience, auth strict (kid required)", "accept every pair except foreign (kid-less) tokens presented to auth, which are refused for the missing kid"),
 ]
 SHARED_AUD = "crosscheck-shared"
 
 
+REASON_HINT = {"L1": "signature", "L2b": "audience", "L3s": "kid"}   # the ONE reason a rejection in this layer may have
+
+
 def expected_accept(layer, s, d):
-    return True if layer == "L3" else s == d
+    if layer == "L3":
+        return True
+    if layer == "L3s":
+        return d != "auth" or s == "auth"
+    return s == d
 
 
 def _configs(layer, tlist):
@@ -34,7 +45,7 @@ def _configs(layer, tlist):
     for t in tlist:
         cfg[t.name] = {
             "secret": secrets.token_hex(24) if layer == "L1" else shared,
-            "audience": SHARED_AUD if layer in ("L1", "L3") else t.audience,
+            "audience": SHARED_AUD if layer in ("L1", "L3", "L3s") else t.audience,
             "kidless": layer in ("L1", "L2b", "L3"),
         }
     return cfg
@@ -81,6 +92,10 @@ def run_layer(layer, tlist, family_dir, transports, jobs=6, tmp_root=None):
                     exp = expected_accept(layer, s, d)
                     cell["expected"] = "accept" if exp else "reject"
                     ok = (cell["outcome"] == "accept" and cell["usable"]) if exp else cell["outcome"] == "reject"
+                    hint = REASON_HINT.get(layer)
+                    if ok and not exp and hint and hint not in cell.get("reason", "").lower():
+                        ok = False   # rejected, but for a reason other than the one this layer isolates
+                        cell["note"] = "rejected for the wrong reason (expected %r)" % hint
                     cell["ok"] = bool(ok)
                     matrix[s][d] = cell
             out["transports"][transport] = {"matrix": matrix, "ok": all(c["ok"] for r in matrix.values() for c in r.values())}

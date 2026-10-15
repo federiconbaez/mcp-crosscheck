@@ -11,7 +11,7 @@ Three independent pieces of evidence come out of one command:
 |---|---|---|
 | 1. Shared black-box battery | 57 freshly written checks (lifecycle, JSON-RPC edge cases, tools, resources, prompts, capability honesty, auth, HTTP, stdio, persistence, concurrency) run against **every** server over **every** transport | `mcpcross/battery.py` |
 | 2. Differential checks | 65 identical malformed/edge inputs sent to all four servers; they must answer with the **same** JSON-RPC error code (and HTTP status); stdio and HTTP must agree on JSON-RPC semantics; for each capability, "advertised" must equal "the method really works" | `mcpcross/differential.py` |
-| 3. Cross-token matrix | a token minted by server S is presented to server D, for all 16 ordered pairs, on both transports, in four layers (separate secrets; shared secret/different audience; the same with `--allow-kidless`; fully shared config) | `mcpcross/crosstoken.py` |
+| 3. Cross-token matrix | a token minted by server S is presented to server D, for all 16 ordered pairs, on both transports, in five layers | `mcpcross/crosstoken.py` |
 
 The result is written to `evidence/crosscheck.json` (machine readable) and `evidence/crosscheck.md` (matrix report).
 
@@ -44,8 +44,9 @@ header (unless `serve --allow-kidless`). The layers isolate **one reason** for r
 | L2 | one shared secret and issuer, each server keeps its **own** audience | only S == D accepted (wrong audience; auth-hardened also says "missing kid" for kid-less foreign tokens) |
 | L2b | like L2, `mcp-auth-hardened` started with `--allow-kidless` | only S == D accepted, and the reason is now purely "wrong audience" |
 | L3 | shared secret + issuer + audience, `mcp-auth-hardened` with `--allow-kidless` | **all 16 pairs accepted**, and the accepted token is *usable* (`tools/list` returns tools) |
+| L3s | like L3 but `mcp-auth-hardened` **strict** (no `--allow-kidless`) | all pairs accepted **except** foreign tokens presented to `mcp-auth-hardened`, which must be refused for the missing `kid` |
 
-L3 is the positive control that proves the rejections in L1/L2/L2b are caused by the configuration under test and not by a harness bug.
+Each rejection is also checked for its *reason* (L1: signature, L2b: audience, L3s: kid), so a bug in one control cannot hide behind another. L3 is the positive control that proves the rejections in L1/L2/L2b are caused by the configuration under test and not by a harness bug.
 
 ## What a PASS means, and what it does not
 
@@ -71,7 +72,7 @@ demo.sh demo.py  README.md  AUDIT.md  ORIGINALITY.md  SECURITY.md  MANIFEST.sha2
 usando solo la biblioteca estándar de Python. Los lanza como procesos reales (stdio y HTTP), sin importar su código, y ejecuta:
 (1) una batería común de 57 checks de caja negra; (2) pruebas diferenciales: las mismas entradas mal formadas deben producir los
 mismos códigos de error JSON-RPC en los cuatro servidores, y las capacidades anunciadas deben coincidir con el comportamiento real;
-(3) una matriz de tokens cruzados (16 pares × 2 transportes × 4 capas): con secretos distintos o audiencias distintas el token debe
+(3) una matriz de tokens cruzados (16 pares × 2 transportes × 5 capas): con secretos distintos o audiencias distintas el token debe
 ser rechazado; con secreto y audiencia compartidos (y `--allow-kidless` en auth-hardened) debe ser aceptado y utilizable.
 Comando principal: `python3 -m mcpcross run` (resultado en `evidence/crosscheck.md`). Verificación paso a paso en `AUDIT.md`.
 **Limitación honesta:** los servidores, la batería y sus expectativas tienen el mismo autor y los servidores comparten un ancestro, por lo

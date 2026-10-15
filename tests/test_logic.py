@@ -44,9 +44,14 @@ class CrossTokenLogic(unittest.TestCase):
             self.assertTrue(crosstoken.expected_accept(layer, "a", "a"))
             self.assertFalse(crosstoken.expected_accept(layer, "a", "b"))
         self.assertTrue(crosstoken.expected_accept("L3", "a", "b"))
+        # strict kid layer: only foreign tokens presented to auth are refused
+        self.assertTrue(crosstoken.expected_accept("L3s", "base", "memory"))
+        self.assertTrue(crosstoken.expected_accept("L3s", "auth", "base"))
+        self.assertTrue(crosstoken.expected_accept("L3s", "auth", "auth"))
+        self.assertFalse(crosstoken.expected_accept("L3s", "base", "auth"))
 
     def test_layers_listed_in_order(self):
-        self.assertEqual([l[0] for l in crosstoken.LAYERS], ["L1", "L2", "L2b", "L3"])
+        self.assertEqual([l[0] for l in crosstoken.LAYERS], ["L1", "L2", "L2b", "L3", "L3s"])
 
     def test_configs_differ_per_layer(self):
         from mcpcross import targets
@@ -63,6 +68,9 @@ class CrossTokenLogic(unittest.TestCase):
         self.assertEqual(len({c["audience"] for c in l3.values()}), 1)
         self.assertTrue(all(c["kidless"] for c in l3.values()))
         self.assertTrue(all(c["kidless"] for c in crosstoken._configs("L2b", tl).values()))
+        l3s = crosstoken._configs("L3s", tl)
+        self.assertEqual(len({c["audience"] for c in l3s.values()}), 1)
+        self.assertFalse(any(c["kidless"] for c in l3s.values()))
 
 
 def fake_cross(ok=True):
