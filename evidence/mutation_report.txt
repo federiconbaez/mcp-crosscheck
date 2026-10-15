@@ -1,0 +1,12 @@
+C1   mcp-base           KILLED    unknown method answers -32602 [expected detector: battery + differential] 
+C2   mcp-memory-first   KILLED    audience is not checked [expected detector: cross-token L2 + battery] 
+C3   mcp-resource-heavy KILLED    signature is not checked [expected detector: cross-token L1 + battery] 
+C4   mcp-base           KILLED    batches accepted on 2025-06-18 [expected detector: battery] 
+C5   mcp-memory-first   KILLED    issuer is not checked [expected detector: battery] 
+C6   mcp-auth-hardened  KILLED    kid-less tokens accepted without the flag [expected detector: cross-token L3s] 
+C7   mcp-auth-hardened  KILLED    kid-path signature is not checked [expected detector: battery] 
+C8   mcp-base           KILLED    advertises resources.subscribe but does not implement it [expected detector: differential (capability table) + battery] 
+C9   mcp-resource-heavy KILLED    invalid params answered with -32600 [expected detector: battery + differential] 
+C10  mcp-base           KILLED    signature is not checked (base) [expected detector: cross-token L1 + battery] 
+
+mutants killed: 10/10 (150s)

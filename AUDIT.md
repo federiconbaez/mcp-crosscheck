@@ -25,7 +25,7 @@ python3 tools/check_doc_refs.py               # every file/test/check named in t
 python3 tools/check_stdlib_only.py            # AST only; fails on third-party imports, exec/eval/__import__/importlib, dependency manifests
 ```
 
-## Step 2 - unit and integration tests ({TESTS})
+## Step 2 - unit and integration tests (50 tests)
 
 ```bash
 python3 -m unittest discover -v

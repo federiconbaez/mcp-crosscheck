@@ -1,0 +1,6240 @@
+{
+  "battery": {
+    "checks_registered": 57,
+    "failures": 0,
+    "results": {
+      "auth": {
+        "XC-AUT-01": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-02": {
+          "http": {
+            "detail": "",
+            "ms": 60,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 122,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-03": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 66,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-04": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 281,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-05": {
+          "http": {
+            "detail": "",
+            "ms": 60,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 125,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-06": {
+          "http": {
+            "detail": "",
+            "ms": 84,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 146,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-07": {
+          "http": {
+            "detail": "",
+            "ms": 76,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 141,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-08": {
+          "http": {
+            "detail": "",
+            "ms": 164,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 375,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-01": {
+          "http": {
+            "detail": "",
+            "ms": 16,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 87,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-02": {
+          "http": {
+            "detail": "",
+            "ms": 11,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 73,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-03": {
+          "http": {
+            "detail": "listChanged not advertised (nothing to verify)",
+            "ms": 4,
+            "status": "skip"
+          },
+          "stdio": {
+            "detail": "listChanged not advertised (nothing to verify)",
+            "ms": 66,
+            "status": "skip"
+          }
+        },
+        "XC-CAP-04": {
+          "http": {
+            "detail": "",
+            "ms": 9,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 69,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-05": {
+          "http": {
+            "detail": "",
+            "ms": 19,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 80,
+            "status": "pass"
+          }
+        },
+        "XC-CON-01": {
+          "http": {
+            "detail": "",
+            "ms": 89,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 325,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-01": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-02": {
+          "http": {
+            "detail": "",
+            "ms": 2,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-03": {
+          "http": {
+            "detail": "",
+            "ms": 10,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-04": {
+          "http": {
+            "detail": "",
+            "ms": 132,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-05": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-06": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-07": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-08": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-09": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-01": {
+          "http": {
+            "detail": "",
+            "ms": 165,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 133,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-02": {
+          "http": {
+            "detail": "",
+            "ms": 18,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 236,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-03": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 69,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-04": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-05": {
+          "http": {
+            "detail": "",
+            "ms": 13,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 71,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-06": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-07": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 72,
+            "status": "pass"
+          }
+        },
+        "XC-PER-01": {
+          "http": {
+            "detail": "",
+            "ms": 239,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 145,
+            "status": "pass"
+          }
+        },
+        "XC-PRM-01": {
+          "http": {
+            "detail": "",
+            "ms": 10,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 67,
+            "status": "pass"
+          }
+        },
+        "XC-PRM-02": {
+          "http": {
+            "detail": "",
+            "ms": 12,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 93,
+            "status": "pass"
+          }
+        },
+        "XC-RES-01": {
+          "http": {
+            "detail": "",
+            "ms": 12,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 80,
+            "status": "pass"
+          }
+        },
+        "XC-RES-02": {
+          "http": {
+            "detail": "",
+            "ms": 37,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 90,
+            "status": "pass"
+          }
+        },
+        "XC-RES-03": {
+          "http": {
+            "detail": "",
+            "ms": 10,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 72,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-01": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 72,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-02": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 67,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-03": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 75,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-04": {
+          "http": {
+            "detail": "",
+            "ms": 11,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 73,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-05": {
+          "http": {
+            "detail": "",
+            "ms": 10,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-06": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 71,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-07": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 69,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-08": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 86,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-09": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-10": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 80,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-11": {
+          "http": {
+            "detail": "",
+            "ms": 9,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 85,
+            "status": "pass"
+          }
+        },
+        "XC-STD-01": {
+          "stdio": {
+            "detail": "",
+            "ms": 78,
+            "status": "pass"
+          }
+        },
+        "XC-STD-02": {
+          "stdio": {
+            "detail": "",
+            "ms": 90,
+            "status": "pass"
+          }
+        },
+        "XC-STD-03": {
+          "stdio": {
+            "detail": "",
+            "ms": 85,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-01": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-02": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 75,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-03": {
+          "http": {
+            "detail": "",
+            "ms": 9,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 84,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-04": {
+          "http": {
+            "detail": "",
+            "ms": 10,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 81,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-05": {
+          "http": {
+            "detail": "",
+            "ms": 26,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 82,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-06": {
+          "http": {
+            "detail": "",
+            "ms": 19,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 167,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-07": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 79,
+            "status": "pass"
+          }
+        }
+      },
+      "base": {
+        "XC-AUT-01": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 81,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-02": {
+          "http": {
+            "detail": "",
+            "ms": 65,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 106,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-03": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-04": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 262,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-05": {
+          "http": {
+            "detail": "",
+            "ms": 56,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 114,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-06": {
+          "http": {
+            "detail": "",
+            "ms": 61,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 111,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-07": {
+          "http": {
+            "detail": "",
+            "ms": 58,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 134,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-08": {
+          "http": {
+            "detail": "",
+            "ms": 147,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 251,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-01": {
+          "http": {
+            "detail": "",
+            "ms": 12,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 66,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-02": {
+          "http": {
+            "detail": "",
+            "ms": 9,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 57,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-03": {
+          "http": {
+            "detail": "listChanged not advertised (nothing to verify)",
+            "ms": 3,
+            "status": "skip"
+          },
+          "stdio": {
+            "detail": "listChanged not advertised (nothing to verify)",
+            "ms": 64,
+            "status": "skip"
+          }
+        },
+        "XC-CAP-04": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 62,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-05": {
+          "http": {
+            "detail": "",
+            "ms": 14,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 81,
+            "status": "pass"
+          }
+        },
+        "XC-CON-01": {
+          "http": {
+            "detail": "",
+            "ms": 94,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 356,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-01": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-02": {
+          "http": {
+            "detail": "",
+            "ms": 0,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-03": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-04": {
+          "http": {
+            "detail": "",
+            "ms": 116,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-05": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-06": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-07": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-08": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-09": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-01": {
+          "http": {
+            "detail": "",
+            "ms": 171,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 131,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-02": {
+          "http": {
+            "detail": "",
+            "ms": 18,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 205,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-03": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 73,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-04": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 63,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-05": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 65,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-06": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 67,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-07": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 63,
+            "status": "pass"
+          }
+        },
+        "XC-PER-01": {
+          "http": {
+            "detail": "",
+            "ms": 248,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 205,
+            "status": "pass"
+          }
+        },
+        "XC-PRM-01": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 65,
+            "status": "pass"
+          }
+        },
+        "XC-PRM-02": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 64,
+            "status": "pass"
+          }
+        },
+        "XC-RES-01": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 66,
+            "status": "pass"
+          }
+        },
+        "XC-RES-02": {
+          "http": {
+            "detail": "",
+            "ms": 15,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 75,
+            "status": "pass"
+          }
+        },
+        "XC-RES-03": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 72,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-01": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 63,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-02": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 63,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-03": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 73,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-04": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 74,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-05": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 67,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-06": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 62,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-07": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 64,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-08": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 75,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-09": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 89,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-10": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 73,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-11": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-STD-01": {
+          "stdio": {
+            "detail": "",
+            "ms": 65,
+            "status": "pass"
+          }
+        },
+        "XC-STD-02": {
+          "stdio": {
+            "detail": "",
+            "ms": 74,
+            "status": "pass"
+          }
+        },
+        "XC-STD-03": {
+          "stdio": {
+            "detail": "",
+            "ms": 66,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-01": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 65,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-02": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 74,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-03": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-04": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 64,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-05": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 61,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-06": {
+          "http": {
+            "detail": "",
+            "ms": 13,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 136,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-07": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 89,
+            "status": "pass"
+          }
+        }
+      },
+      "memory": {
+        "XC-AUT-01": {
+          "http": {
+            "detail": "",
+            "ms": 0,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-02": {
+          "http": {
+            "detail": "",
+            "ms": 67,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 119,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-03": {
+          "http": {
+            "detail": "",
+            "ms": 0,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 57,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-04": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 265,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-05": {
+          "http": {
+            "detail": "",
+            "ms": 55,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 134,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-06": {
+          "http": {
+            "detail": "",
+            "ms": 54,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 126,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-07": {
+          "http": {
+            "detail": "",
+            "ms": 62,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 132,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-08": {
+          "http": {
+            "detail": "",
+            "ms": 132,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 252,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-01": {
+          "http": {
+            "detail": "",
+            "ms": 9,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-02": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 69,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-03": {
+          "http": {
+            "detail": "listChanged not advertised (nothing to verify)",
+            "ms": 2,
+            "status": "skip"
+          },
+          "stdio": {
+            "detail": "listChanged not advertised (nothing to verify)",
+            "ms": 68,
+            "status": "skip"
+          }
+        },
+        "XC-CAP-04": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 67,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-05": {
+          "http": {
+            "detail": "",
+            "ms": 13,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 75,
+            "status": "pass"
+          }
+        },
+        "XC-CON-01": {
+          "http": {
+            "detail": "",
+            "ms": 132,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 393,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-01": {
+          "http": {
+            "detail": "",
+            "ms": 0,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-02": {
+          "http": {
+            "detail": "",
+            "ms": 0,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-03": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-04": {
+          "http": {
+            "detail": "",
+            "ms": 125,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-05": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-06": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-07": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-08": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-09": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-01": {
+          "http": {
+            "detail": "",
+            "ms": 156,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 136,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-02": {
+          "http": {
+            "detail": "",
+            "ms": 10,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 203,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-03": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-04": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 78,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-05": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 79,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-06": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 78,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-07": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 76,
+            "status": "pass"
+          }
+        },
+        "XC-PER-01": {
+          "http": {
+            "detail": "",
+            "ms": 230,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 142,
+            "status": "pass"
+          }
+        },
+        "XC-PRM-01": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 66,
+            "status": "pass"
+          }
+        },
+        "XC-PRM-02": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 73,
+            "status": "pass"
+          }
+        },
+        "XC-RES-01": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 66,
+            "status": "pass"
+          }
+        },
+        "XC-RES-02": {
+          "http": {
+            "detail": "",
+            "ms": 21,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 87,
+            "status": "pass"
+          }
+        },
+        "XC-RES-03": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 83,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-01": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 75,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-02": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 66,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-03": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 76,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-04": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 79,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-05": {
+          "http": {
+            "detail": "",
+            "ms": 9,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 82,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-06": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 75,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-07": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 127,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-08": {
+          "http": {
+            "detail": "",
+            "ms": 22,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 71,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-09": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-10": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 74,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-11": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 69,
+            "status": "pass"
+          }
+        },
+        "XC-STD-01": {
+          "stdio": {
+            "detail": "",
+            "ms": 69,
+            "status": "pass"
+          }
+        },
+        "XC-STD-02": {
+          "stdio": {
+            "detail": "",
+            "ms": 120,
+            "status": "pass"
+          }
+        },
+        "XC-STD-03": {
+          "stdio": {
+            "detail": "",
+            "ms": 89,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-01": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 66,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-02": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 65,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-03": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-04": {
+          "http": {
+            "detail": "",
+            "ms": 9,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 73,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-05": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 80,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-06": {
+          "http": {
+            "detail": "",
+            "ms": 16,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 145,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-07": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        }
+      },
+      "resources": {
+        "XC-AUT-01": {
+          "http": {
+            "detail": "",
+            "ms": 0,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 60,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-02": {
+          "http": {
+            "detail": "",
+            "ms": 55,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 205,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-03": {
+          "http": {
+            "detail": "",
+            "ms": 0,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 80,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-04": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 332,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-05": {
+          "http": {
+            "detail": "",
+            "ms": 56,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 158,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-06": {
+          "http": {
+            "detail": "",
+            "ms": 53,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 127,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-07": {
+          "http": {
+            "detail": "",
+            "ms": 65,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 117,
+            "status": "pass"
+          }
+        },
+        "XC-AUT-08": {
+          "http": {
+            "detail": "",
+            "ms": 140,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 264,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-01": {
+          "http": {
+            "detail": "",
+            "ms": 10,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 92,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-02": {
+          "http": {
+            "detail": "",
+            "ms": 29,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 99,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-03": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 1070,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-04": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 74,
+            "status": "pass"
+          }
+        },
+        "XC-CAP-05": {
+          "http": {
+            "detail": "",
+            "ms": 12,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 76,
+            "status": "pass"
+          }
+        },
+        "XC-CON-01": {
+          "http": {
+            "detail": "",
+            "ms": 79,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 322,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-01": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-02": {
+          "http": {
+            "detail": "",
+            "ms": 0,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-03": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-04": {
+          "http": {
+            "detail": "",
+            "ms": 138,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-05": {
+          "http": {
+            "detail": "",
+            "ms": 2,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-06": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-07": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-08": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          }
+        },
+        "XC-HTP-09": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-01": {
+          "http": {
+            "detail": "",
+            "ms": 163,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 133,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-02": {
+          "http": {
+            "detail": "",
+            "ms": 10,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 207,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-03": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 84,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-04": {
+          "http": {
+            "detail": "",
+            "ms": 1,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 69,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-05": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 79,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-06": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 79,
+            "status": "pass"
+          }
+        },
+        "XC-LIF-07": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 80,
+            "status": "pass"
+          }
+        },
+        "XC-PER-01": {
+          "http": {
+            "detail": "",
+            "ms": 280,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 173,
+            "status": "pass"
+          }
+        },
+        "XC-PRM-01": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-PRM-02": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 62,
+            "status": "pass"
+          }
+        },
+        "XC-RES-01": {
+          "http": {
+            "detail": "",
+            "ms": 17,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        },
+        "XC-RES-02": {
+          "http": {
+            "detail": "",
+            "ms": 35,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 96,
+            "status": "pass"
+          }
+        },
+        "XC-RES-03": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 63,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-01": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 67,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-02": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 82,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-03": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 80,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-04": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 87,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-05": {
+          "http": {
+            "detail": "",
+            "ms": 8,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 83,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-06": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 82,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-07": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 88,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-08": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 80,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-09": {
+          "http": {
+            "detail": "",
+            "ms": 3,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 64,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-10": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        },
+        "XC-RPC-11": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 61,
+            "status": "pass"
+          }
+        },
+        "XC-STD-01": {
+          "stdio": {
+            "detail": "",
+            "ms": 86,
+            "status": "pass"
+          }
+        },
+        "XC-STD-02": {
+          "stdio": {
+            "detail": "",
+            "ms": 91,
+            "status": "pass"
+          }
+        },
+        "XC-STD-03": {
+          "stdio": {
+            "detail": "",
+            "ms": 59,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-01": {
+          "http": {
+            "detail": "",
+            "ms": 6,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 74,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-02": {
+          "http": {
+            "detail": "",
+            "ms": 4,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 68,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-03": {
+          "http": {
+            "detail": "",
+            "ms": 7,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 88,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-04": {
+          "http": {
+            "detail": "",
+            "ms": 13,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 79,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-05": {
+          "http": {
+            "detail": "",
+            "ms": 9,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 71,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-06": {
+          "http": {
+            "detail": "",
+            "ms": 13,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 148,
+            "status": "pass"
+          }
+        },
+        "XC-TLS-07": {
+          "http": {
+            "detail": "",
+            "ms": 5,
+            "status": "pass"
+          },
+          "stdio": {
+            "detail": "",
+            "ms": 70,
+            "status": "pass"
+          }
+        }
+      }
+    },
+    "spec": {
+      "XC-AUT-01": "RFC 6750 s3 (simplified)",
+      "XC-AUT-02": "RFC 7519 s4.1.4",
+      "XC-AUT-03": "RFC 7515 s5.2",
+      "XC-AUT-04": "RFC 8725 s3.1",
+      "XC-AUT-05": "RFC 7519 s4.1.3",
+      "XC-AUT-06": "RFC 7519 s4.1.1",
+      "XC-AUT-07": "scope enforcement",
+      "XC-AUT-08": "scope enforcement",
+      "XC-CAP-01": "MCP lifecycle: capability negotiation",
+      "XC-CAP-02": "MCP server/resources: subscriptions",
+      "XC-CAP-03": "MCP server/resources: list changed",
+      "XC-CAP-04": "MCP utilities: completion",
+      "XC-CAP-05": "MCP server/tools+prompts: list changed",
+      "XC-CON-01": "robustness",
+      "XC-HTP-01": "MCP transports: DNS-rebinding warning",
+      "XC-HTP-02": "HTTP semantics",
+      "XC-HTP-03": "MCP transports: session management",
+      "XC-HTP-04": "security design",
+      "XC-HTP-05": "robustness",
+      "XC-HTP-06": "MCP 2025-06-18 transports: protocol version header",
+      "XC-HTP-07": "JSON-RPC over HTTP",
+      "XC-HTP-08": "MCP transports: Streamable HTTP",
+      "XC-HTP-09": "JSON-RPC 2.0 s6",
+      "XC-LIF-01": "MCP lifecycle: initialization",
+      "XC-LIF-02": "MCP lifecycle: version negotiation",
+      "XC-LIF-03": "MCP lifecycle: version negotiation",
+      "XC-LIF-04": "family consensus + JSON-RPC 2.0 s5.1",
+      "XC-LIF-05": "MCP utilities: ping",
+      "XC-LIF-06": "JSON-RPC 2.0 s4.1",
+      "XC-LIF-07": "JSON-RPC 2.0 s5.1",
+      "XC-PER-01": "persistence",
+      "XC-PRM-01": "MCP server/prompts",
+      "XC-PRM-02": "MCP server/prompts: argument validation",
+      "XC-RES-01": "MCP server/resources: listing",
+      "XC-RES-02": "MCP server/resources: reading",
+      "XC-RES-03": "MCP server/resources: error handling (family consensus)",
+      "XC-RPC-01": "JSON-RPC 2.0 s5.1",
+      "XC-RPC-02": "JSON-RPC 2.0 s5.1",
+      "XC-RPC-03": "JSON-RPC 2.0 s5.1",
+      "XC-RPC-04": "JSON-RPC 2.0 s5",
+      "XC-RPC-05": "JSON-RPC 2.0 s4 (strict ids; family consensus)",
+      "XC-RPC-06": "JSON-RPC 2.0 s5.1",
+      "XC-RPC-07": "JSON-RPC 2.0 s6",
+      "XC-RPC-08": "JSON-RPC 2.0 s6 / MCP 2025-03-26",
+      "XC-RPC-09": "JSON-RPC 2.0 s6",
+      "XC-RPC-10": "MCP 2025-06-18 changelog: batching removed",
+      "XC-RPC-11": "JSON-RPC 2.0 s5.1 + robustness",
+      "XC-STD-01": "MCP transports: stdio",
+      "XC-STD-02": "robustness",
+      "XC-STD-03": "MCP transports: stdio shutdown",
+      "XC-TLS-01": "MCP server/tools: listing",
+      "XC-TLS-02": "family design: strict schemas",
+      "XC-TLS-03": "MCP server/tools: error handling (family consensus)",
+      "XC-TLS-04": "MCP server/tools: calling",
+      "XC-TLS-05": "MCP server/tools: tool execution errors",
+      "XC-TLS-06": "MCP 2025-06-18 server/tools: structured content",
+      "XC-TLS-07": "MCP utilities: pagination"
+    },
+    "summary": {
+      "auth": {
+        "http": {
+          "error": 0,
+          "fail": 0,
+          "pass": 53,
+          "skip": 1
+        },
+        "stdio": {
+          "error": 0,
+          "fail": 0,
+          "pass": 47,
+          "skip": 1
+        }
+      },
+      "base": {
+        "http": {
+          "error": 0,
+          "fail": 0,
+          "pass": 53,
+          "skip": 1
+        },
+        "stdio": {
+          "error": 0,
+          "fail": 0,
+          "pass": 47,
+          "skip": 1
+        }
+      },
+      "memory": {
+        "http": {
+          "error": 0,
+          "fail": 0,
+          "pass": 53,
+          "skip": 1
+        },
+        "stdio": {
+          "error": 0,
+          "fail": 0,
+          "pass": 47,
+          "skip": 1
+        }
+      },
+      "resources": {
+        "http": {
+          "error": 0,
+          "fail": 0,
+          "pass": 54,
+          "skip": 0
+        },
+        "stdio": {
+          "error": 0,
+          "fail": 0,
+          "pass": 48,
+          "skip": 0
+        }
+      }
+    },
+    "titles": {
+      "XC-AUT-01": "no token -> rejected (stdio -32001 / http 401 + WWW-Authenticate: Bearer)",
+      "XC-AUT-02": "expired token (1 h ago, beyond any leeway) -> rejected",
+      "XC-AUT-03": "signature with one flipped bit -> rejected",
+      "XC-AUT-04": "alg=none and garbage tokens -> rejected",
+      "XC-AUT-05": "valid signature but wrong audience -> rejected",
+      "XC-AUT-06": "valid signature but wrong issuer -> rejected",
+      "XC-AUT-07": "token with only the base scope cannot call tools (-32003 / HTTP 403)",
+      "XC-AUT-08": "a token's scopes do not leak between sessions (read-only vs full side by side)",
+      "XC-CAP-01": "advertised capability <=> its methods work; unadvertised -> -32601",
+      "XC-CAP-02": "resources.subscribe true => subscribe/unsubscribe work and validate; false => -32601",
+      "XC-CAP-03": "resources.listChanged true => a real list_changed push follows a change (stdio) / GET stream exists (http)",
+      "XC-CAP-04": "completions advertised => completion/complete works on a listed prompt; unadvertised => -32601",
+      "XC-CAP-05": "list_changed flags for tools/prompts are honest (false => the lists do not change)",
+      "XC-CON-01": "8 concurrent clients x 4 store/recall rounds: no errors, nothing lost",
+      "XC-HTP-01": "foreign Origin header -> 403",
+      "XC-HTP-02": "non-JSON Content-Type -> 415",
+      "XC-HTP-03": "Mcp-Session-Id: issued, required later, unknown -> 404, DELETE ends the session",
+      "XC-HTP-04": "session is bound to the token subject: another subject cannot reuse the session id",
+      "XC-HTP-05": "oversized body (> 1 MiB) -> 413",
+      "XC-HTP-06": "unsupported MCP-Protocol-Version header -> 400",
+      "XC-HTP-07": "parse error over HTTP -> 400 with a JSON-RPC error body",
+      "XC-HTP-08": "GET /mcp without an event-stream Accept is refused (405/406); unknown paths -> 404",
+      "XC-HTP-09": "batch over HTTP returns a JSON array with application/json",
+      "XC-LIF-01": "initialize result has protocolVersion, capabilities and serverInfo{name,version}",
+      "XC-LIF-02": "each of 2024-11-05, 2025-03-26, 2025-06-18 is negotiated as requested",
+      "XC-LIF-03": "unknown protocolVersion -> success with a version the server supports",
+      "XC-LIF-04": "request before initialize is refused with -32600 (no result)",
+      "XC-LIF-05": "ping answers {} both before and after initialize",
+      "XC-LIF-06": "notifications/initialized and unknown notifications produce no response",
+      "XC-LIF-07": "initialize with missing/invalid params -> -32602",
+      "XC-PER-01": "a stored memory survives a server restart",
+      "XC-PRM-01": "prompts/list shape; prompts/get unknown -> -32602",
+      "XC-PRM-02": "a prompt with required arguments rejects a call without them (-32602)",
+      "XC-RES-01": "resources/list and resources/templates/list have the specified shape (all pages)",
+      "XC-RES-02": "resources/read of listed resources returns contents with exactly one of text/blob",
+      "XC-RES-03": "unknown resource -> -32002; missing uri -> -32602",
+      "XC-RPC-01": "malformed JSON -> -32700 with id null",
+      "XC-RPC-02": "structurally invalid request -> -32600 with id null",
+      "XC-RPC-03": "unknown method after initialize -> -32601 with the id echoed",
+      "XC-RPC-04": "ids are echoed verbatim: string, 0, and a large integer",
+      "XC-RPC-05": "invalid id types (bool, float, object) -> -32600",
+      "XC-RPC-06": "params of the wrong JSON type -> -32602 or -32600, never a result",
+      "XC-RPC-07": "empty batch -> one -32600 object",
+      "XC-RPC-08": "batch [ping, ping] on 2025-03-26 -> array of two results with ids",
+      "XC-RPC-09": "batch of notifications only -> no response",
+      "XC-RPC-10": "batches are rejected (-32600) once 2025-06-18 is negotiated",
+      "XC-RPC-11": "invalid UTF-8 bytes -> -32700 and the server keeps serving",
+      "XC-STD-01": "CRLF frames and blank lines are tolerated; stdout carries only JSON",
+      "XC-STD-02": "line over 1 MiB -> -32600 and the server keeps serving",
+      "XC-STD-03": "stdin EOF -> clean exit code 0",
+      "XC-TLS-01": "tools/list: unique names, description string, inputSchema type=object",
+      "XC-TLS-02": "every tool schema is strict (additionalProperties:false at the top level)",
+      "XC-TLS-03": "unknown tool -> -32602; missing tool name -> -32602",
+      "XC-TLS-04": "memory_store -> memory_recall round trip finds exactly the stored note",
+      "XC-TLS-05": "argument violations are tool errors (isError:true), not protocol errors",
+      "XC-TLS-06": "structuredContent appears only on a negotiated 2025-06-18 session",
+      "XC-TLS-07": "tools/list cursor: bogus cursor -> -32602, missing cursor fine"
+    }
+  },
+  "crosstoken": {
+    "layers": [
+      {
+        "expect": "accept only when source == destination (rejection reason: signature)",
+        "layer": "L1",
+        "ok": true,
+        "title": "separate secrets, shared audience, auth --allow-kidless",
+        "transports": {
+          "http": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: signature verification failed",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          },
+          "stdio": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: signature verification failed",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          }
+        }
+      },
+      {
+        "expect": "accept only when source == destination",
+        "layer": "L2",
+        "ok": true,
+        "title": "shared secret, per-member audience (strict kid)",
+        "transports": {
+          "http": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          },
+          "stdio": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          }
+        }
+      },
+      {
+        "expect": "accept only when source == destination",
+        "layer": "L2b",
+        "ok": true,
+        "title": "shared secret, per-member audience, auth --allow-kidless",
+        "transports": {
+          "http": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          },
+          "stdio": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "base": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "memory": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: wrong audience",
+                  "usable": false
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          }
+        }
+      },
+      {
+        "expect": "accept every pair; token must be usable",
+        "layer": "L3",
+        "ok": true,
+        "title": "shared secret + shared audience, auth --allow-kidless",
+        "transports": {
+          "http": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          },
+          "stdio": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          }
+        }
+      },
+      {
+        "expect": "accept every pair except foreign (kid-less) tokens presented to auth, which are refused for the missing kid",
+        "layer": "L3s",
+        "ok": true,
+        "title": "shared secret + shared audience, auth strict (kid required)",
+        "transports": {
+          "http": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": null,
+                  "expected": "reject",
+                  "http": 401,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "invalid_token: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          },
+          "stdio": {
+            "matrix": {
+              "auth": {
+                "auth": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 9,
+                  "usable": true
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "base": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "memory": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              },
+              "resources": {
+                "auth": {
+                  "code": -32001,
+                  "expected": "reject",
+                  "http": null,
+                  "ok": true,
+                  "outcome": "reject",
+                  "reason": "Unauthorized: missing kid",
+                  "usable": false
+                },
+                "base": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 4,
+                  "usable": true
+                },
+                "memory": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 18,
+                  "usable": true
+                },
+                "resources": {
+                  "code": null,
+                  "expected": "accept",
+                  "ok": true,
+                  "outcome": "accept",
+                  "reason": "",
+                  "tools": 16,
+                  "usable": true
+                }
+              }
+            },
+            "ok": true
+          }
+        }
+      }
+    ],
+    "ok": true,
+    "targets": [
+      "base",
+      "memory",
+      "auth",
+      "resources"
+    ],
+    "transports": [
+      "stdio",
+      "http"
+    ]
+  },
+  "differential": {
+    "capabilities": {
+      "auth": {
+        "capabilities": {
+          "experimental": {
+            "mcpauth/auditChain": {
+              "algorithm": "sha256",
+              "resource": "audit://chain"
+            }
+          },
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "listChanged": false,
+            "subscribe": false
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "flags": {
+          "prompts.listChanged": false,
+          "resources.listChanged": false,
+          "tools.listChanged": false
+        },
+        "rows": {
+          "completions": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "logging": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "prompts": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          },
+          "resources": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          },
+          "resources.subscribe": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "tools": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          }
+        }
+      },
+      "base": {
+        "capabilities": {
+          "experimental": {
+            "mcpforge/auditChain": {
+              "algorithm": "sha256",
+              "resource": "audit://chain"
+            }
+          },
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "listChanged": false,
+            "subscribe": false
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "flags": {
+          "prompts.listChanged": false,
+          "resources.listChanged": false,
+          "tools.listChanged": false
+        },
+        "rows": {
+          "completions": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "logging": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "prompts": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          },
+          "resources": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          },
+          "resources.subscribe": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "tools": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          }
+        }
+      },
+      "memory": {
+        "capabilities": {
+          "experimental": {
+            "mcpmem/auditChain": {
+              "algorithm": "sha256",
+              "resource": "audit://chain"
+            }
+          },
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "listChanged": false,
+            "subscribe": false
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "flags": {
+          "prompts.listChanged": false,
+          "resources.listChanged": false,
+          "tools.listChanged": false
+        },
+        "rows": {
+          "completions": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "logging": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "prompts": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          },
+          "resources": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          },
+          "resources.subscribe": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "tools": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          }
+        }
+      },
+      "resources": {
+        "capabilities": {
+          "completions": {},
+          "experimental": {
+            "mcpres/auditChain": {
+              "algorithm": "sha256",
+              "resource": "audit://chain"
+            }
+          },
+          "prompts": {
+            "listChanged": false
+          },
+          "resources": {
+            "listChanged": true,
+            "subscribe": true
+          },
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "flags": {
+          "prompts.listChanged": false,
+          "resources.listChanged": true,
+          "tools.listChanged": false
+        },
+        "rows": {
+          "completions": {
+            "advertised": true,
+            "answered": true,
+            "code": -32602,
+            "consistent": true
+          },
+          "logging": {
+            "advertised": false,
+            "answered": false,
+            "code": -32601,
+            "consistent": true
+          },
+          "prompts": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          },
+          "resources": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          },
+          "resources.subscribe": {
+            "advertised": true,
+            "answered": true,
+            "code": -32002,
+            "consistent": true
+          },
+          "tools": {
+            "advertised": true,
+            "answered": true,
+            "code": null,
+            "consistent": true
+          }
+        }
+      }
+    },
+    "cases": [
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "pre/tools-list",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "pre/resources-list",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "pre/prompts-get",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "pre/tools-call",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "pre/unknown-method",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|result",
+              "base": "200|result",
+              "memory": "200|result",
+              "resources": "200|result"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "result",
+              "base": "result",
+              "memory": "result",
+              "resources": "result"
+            }
+          }
+        },
+        "case": "pre/ping",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "202|silence",
+              "base": "202|silence",
+              "memory": "202|silence",
+              "resources": "202|silence"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "silence",
+              "base": "silence",
+              "memory": "silence",
+              "resources": "silence"
+            }
+          }
+        },
+        "case": "pre/notification",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32700(id:null)",
+              "base": "400|err-32700(id:null)",
+              "memory": "400|err-32700(id:null)",
+              "resources": "400|err-32700(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32700(id:null)",
+              "base": "err-32700(id:null)",
+              "memory": "err-32700(id:null)",
+              "resources": "err-32700(id:null)"
+            }
+          }
+        },
+        "case": "frame/truncated-json",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32700(id:null)",
+              "base": "400|err-32700(id:null)",
+              "memory": "400|err-32700(id:null)",
+              "resources": "400|err-32700(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32700(id:null)",
+              "base": "err-32700(id:null)",
+              "memory": "err-32700(id:null)",
+              "resources": "err-32700(id:null)"
+            }
+          }
+        },
+        "case": "frame/not-json",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32700(id:null)",
+              "base": "400|err-32700(id:null)",
+              "memory": "400|err-32700(id:null)",
+              "resources": "400|err-32700(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32700(id:null)",
+              "base": "err-32700(id:null)",
+              "memory": "err-32700(id:null)",
+              "resources": "err-32700(id:null)"
+            }
+          }
+        },
+        "case": "frame/trailing-garbage",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32700(id:null)",
+              "base": "400|err-32700(id:null)",
+              "memory": "400|err-32700(id:null)",
+              "resources": "400|err-32700(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32700(id:null)",
+              "base": "err-32700(id:null)",
+              "memory": "err-32700(id:null)",
+              "resources": "err-32700(id:null)"
+            }
+          }
+        },
+        "case": "frame/nan-constant",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "frame/bare-scalar",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "frame/null",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "frame/string",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32700(id:null)",
+              "base": "400|err-32700(id:null)",
+              "memory": "400|err-32700(id:null)",
+              "resources": "400|err-32700(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32700(id:null)",
+              "base": "err-32700(id:null)",
+              "memory": "err-32700(id:null)",
+              "resources": "err-32700(id:null)"
+            }
+          }
+        },
+        "case": "frame/invalid-utf8",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|array[err-32600(id:null)]",
+              "base": "200|array[err-32600(id:null)]",
+              "memory": "200|array[err-32600(id:null)]",
+              "resources": "200|array[err-32600(id:null)]"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "array[err-32600(id:null)]",
+              "base": "array[err-32600(id:null)]",
+              "memory": "array[err-32600(id:null)]",
+              "resources": "array[err-32600(id:null)]"
+            }
+          }
+        },
+        "case": "frame/deep-nesting",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "frame/empty-object",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "frame/empty-batch",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|array[err-32600(id:null),err-32600(id:null)]",
+              "base": "200|array[err-32600(id:null),err-32600(id:null)]",
+              "memory": "200|array[err-32600(id:null),err-32600(id:null)]",
+              "resources": "200|array[err-32600(id:null),err-32600(id:null)]"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "array[err-32600(id:null),err-32600(id:null)]",
+              "base": "array[err-32600(id:null),err-32600(id:null)]",
+              "memory": "array[err-32600(id:null),err-32600(id:null)]",
+              "resources": "array[err-32600(id:null),err-32600(id:null)]"
+            }
+          }
+        },
+        "case": "frame/batch-of-scalars",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|array[err-32600(id:null),result]",
+              "base": "200|array[err-32600(id:null),result]",
+              "memory": "200|array[err-32600(id:null),result]",
+              "resources": "200|array[err-32600(id:null),result]"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "array[err-32600(id:null),result]",
+              "base": "array[err-32600(id:null),result]",
+              "memory": "array[err-32600(id:null),result]",
+              "resources": "array[err-32600(id:null),result]"
+            }
+          }
+        },
+        "case": "frame/batch-mixed",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|array[result,result]",
+              "base": "200|array[result,result]",
+              "memory": "200|array[result,result]",
+              "resources": "200|array[result,result]"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "array[result,result]",
+              "base": "array[result,result]",
+              "memory": "array[result,result]",
+              "resources": "array[result,result]"
+            }
+          }
+        },
+        "case": "frame/batch-ping",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "202|silence",
+              "base": "202|silence",
+              "memory": "202|silence",
+              "resources": "202|silence"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "silence",
+              "base": "silence",
+              "memory": "silence",
+              "resources": "silence"
+            }
+          }
+        },
+        "case": "frame/batch-notifications",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "req/no-jsonrpc",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "req/jsonrpc-1.0",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "req/jsonrpc-number",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "req/method-number",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "req/method-missing",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "req/id-bool",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "req/id-float",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "req/id-object",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600(id:null)",
+              "base": "400|err-32600(id:null)",
+              "memory": "400|err-32600(id:null)",
+              "resources": "400|err-32600(id:null)"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600(id:null)",
+              "base": "err-32600(id:null)",
+              "memory": "err-32600(id:null)",
+              "resources": "err-32600(id:null)"
+            }
+          }
+        },
+        "case": "req/id-null",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "req/params-string",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "req/params-number-tools-call",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32601",
+              "base": "200|err-32601",
+              "memory": "200|err-32601",
+              "resources": "200|err-32601"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32601",
+              "base": "err-32601",
+              "memory": "err-32601",
+              "resources": "err-32601"
+            }
+          }
+        },
+        "case": "method/unknown",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32601",
+              "base": "200|err-32601",
+              "memory": "200|err-32601",
+              "resources": "200|err-32601"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32601",
+              "base": "err-32601",
+              "memory": "err-32601",
+              "resources": "err-32601"
+            }
+          }
+        },
+        "case": "method/unknown-namespaced",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32601",
+              "base": "200|err-32601",
+              "memory": "200|err-32601",
+              "resources": "200|err-32601"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32601",
+              "base": "err-32601",
+              "memory": "err-32601",
+              "resources": "err-32601"
+            }
+          }
+        },
+        "case": "method/notification-as-request",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "method/empty-name",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "400|err-32600",
+              "base": "400|err-32600",
+              "memory": "400|err-32600",
+              "resources": "400|err-32600"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32600",
+              "base": "err-32600",
+              "memory": "err-32600",
+              "resources": "err-32600"
+            }
+          }
+        },
+        "case": "method/initialize-twice",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "method/initialize-no-params",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "method/initialize-bad-types",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "method/initialize-missing-clientinfo",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|result",
+              "base": "200|result",
+              "memory": "200|result",
+              "resources": "200|result"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "result",
+              "base": "result",
+              "memory": "result",
+              "resources": "result"
+            }
+          }
+        },
+        "case": "method/initialize-unknown-version",
+        "state": "pre",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "tools/call-no-name",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "tools/call-name-number",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "tools/call-unknown-tool",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "tools/call-args-string",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|result",
+              "base": "200|result",
+              "memory": "200|result",
+              "resources": "200|result"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "result",
+              "base": "result",
+              "memory": "result",
+              "resources": "result"
+            }
+          }
+        },
+        "case": "tools/call-wrong-type-arg",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|result",
+              "base": "200|result",
+              "memory": "200|result",
+              "resources": "200|result"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "result",
+              "base": "result",
+              "memory": "result",
+              "resources": "result"
+            }
+          }
+        },
+        "case": "tools/call-missing-required",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|result",
+              "base": "200|result",
+              "memory": "200|result",
+              "resources": "200|result"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "result",
+              "base": "result",
+              "memory": "result",
+              "resources": "result"
+            }
+          }
+        },
+        "case": "tools/call-extra-arg",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "tools/list-bad-cursor",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "tools/list-cursor-number",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "resources/read-no-uri",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "resources/read-uri-number",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32002",
+              "base": "200|err-32002",
+              "memory": "200|err-32002",
+              "resources": "200|err-32002"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32002",
+              "base": "err-32002",
+              "memory": "err-32002",
+              "resources": "err-32002"
+            }
+          }
+        },
+        "case": "resources/read-unknown",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "resources/read-empty-uri",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "resources/list-bad-cursor",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "resources/templates-bad-cursor",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "prompts/get-no-name",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "prompts/get-unknown",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "prompts/get-args-string",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|err-32602",
+              "base": "200|err-32602",
+              "memory": "200|err-32602",
+              "resources": "200|err-32602"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "err-32602",
+              "base": "err-32602",
+              "memory": "err-32602",
+              "resources": "err-32602"
+            }
+          }
+        },
+        "case": "prompts/list-bad-cursor",
+        "state": "post",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|array[err-32600]",
+              "base": "200|array[err-32600]",
+              "memory": "200|array[err-32600]",
+              "resources": "200|array[err-32600]"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "array[err-32600]",
+              "base": "array[err-32600]",
+              "memory": "array[err-32600]",
+              "resources": "array[err-32600]"
+            }
+          }
+        },
+        "case": "v2025-06-18/batch",
+        "state": "post0618",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|result",
+              "base": "200|result",
+              "memory": "200|result",
+              "resources": "200|result"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "result",
+              "base": "result",
+              "memory": "result",
+              "resources": "result"
+            }
+          }
+        },
+        "case": "v2025-06-18/ping",
+        "state": "post0618",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|array[result,result]",
+              "base": "200|array[result,result]",
+              "memory": "200|array[result,result]",
+              "resources": "200|array[result,result]"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "array[result,result]",
+              "base": "array[result,result]",
+              "memory": "array[result,result]",
+              "resources": "array[result,result]"
+            }
+          }
+        },
+        "case": "v2024-11-05/batch",
+        "state": "post1105",
+        "transport_parity": true
+      },
+      {
+        "by_transport": {
+          "http": {
+            "agree": true,
+            "outcomes": {
+              "auth": "200|result",
+              "base": "200|result",
+              "memory": "200|result",
+              "resources": "200|result"
+            }
+          },
+          "stdio": {
+            "agree": true,
+            "outcomes": {
+              "auth": "result",
+              "base": "result",
+              "memory": "result",
+              "resources": "result"
+            }
+          }
+        },
+        "case": "v2024-11-05/ping",
+        "state": "post1105",
+        "transport_parity": true
+      }
+    ],
+    "summary": {
+      "capability_inconsistencies": [],
+      "cases": 65,
+      "disagreements": [],
+      "ok": true,
+      "transport_parity_failures": []
+    },
+    "targets": [
+      "base",
+      "memory",
+      "auth",
+      "resources"
+    ],
+    "transports": [
+      "stdio",
+      "http"
+    ]
+  },
+  "meta": {
+    "commits": {
+      "auth": "611a678",
+      "base": "85d510f",
+      "memory": "e443446",
+      "resources": "9c5781c"
+    },
+    "generated": "2026-10-15T01:16:29-03:00",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "seconds": 19.3,
+    "timezone": "UTC-3 (America/Buenos_Aires)"
+  },
+  "ok": true,
+  "targets": [
+    "base",
+    "memory",
+    "auth",
+    "resources"
+  ],
+  "tool": "mcp-crosscheck",
+  "transports": [
+    "stdio",
+    "http"
+  ],
+  "version": "1.0.0"
+}

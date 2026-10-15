@@ -6,7 +6,7 @@ test_unknown_target_exit_2 (tests.test_cli.CliTests.test_unknown_target_exit_2) 
 test_unchecked_signature_is_caught_by_cross_token_l1 (tests.test_integration.BrokenServersAreDetected.test_unchecked_signature_is_caught_by_cross_token_l1) ... ok
 test_wrong_method_not_found_code_is_caught_by_battery_and_differential (tests.test_integration.BrokenServersAreDetected.test_wrong_method_not_found_code_is_caught_by_battery_and_differential) ... ok
 test_battery_has_no_failures_on_any_target_or_transport (tests.test_integration.FullFamily.test_battery_has_no_failures_on_any_target_or_transport) ... ok
-test_cross_token_matrix (tests.test_integration.FullFamily.test_cross_token_matrix) ... FAIL
+test_cross_token_matrix (tests.test_integration.FullFamily.test_cross_token_matrix) ... ok
 test_differential_all_servers_agree_and_capabilities_match_behaviour (tests.test_integration.FullFamily.test_differential_all_servers_agree_and_capabilities_match_behaviour) ... ok
 test_differential_is_not_vacuous_it_sees_many_distinct_outcomes (tests.test_integration.FullFamily.test_differential_is_not_vacuous_it_sees_many_distinct_outcomes) ... ok
 test_alg_none_has_empty_signature (tests.test_jwtkit.JwtKitTests.test_alg_none_has_empty_signature) ... ok
@@ -49,16 +49,7 @@ test_notifications_before_the_answer_are_collected (tests.test_wire.StdioWireTes
 test_request_gets_result (tests.test_wire.StdioWireTests.test_request_gets_result) ... ok
 test_unknown_method_is_error_with_code (tests.test_wire.StdioWireTests.test_unknown_method_is_error_with_code) ... ok
 
-======================================================================
-FAIL: test_cross_token_matrix (tests.test_integration.FullFamily.test_cross_token_matrix)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/workspace/mcp-family/mcp-crosscheck/tests/test_integration.py", line 54, in test_cross_token_matrix
-    self.assertIn(want[layer["layer"]], cell["reason"].lower(), (layer["layer"], tr, s, d, cell))
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: 'kid' not found in '' : ('L3s', 'stdio', 'base', 'resources', {'outcome': 'accept', 'usable': True, 'tools': 16, 'code': None, 'reason': '', 'expected': 'accept', 'ok': True})
+Ran 50 tests in 34.440s
 
-----------------------------------------------------------------------
-Ran 50 tests in 34.447s
-
-FAILED (failures=1)
+OK

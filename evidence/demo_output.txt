@@ -1,0 +1,56 @@
+
+[1/11] the battery registry is listed
+    OK  57 checks registered
+
+[2/11] full run: battery + differential + cross-token over 4 servers x stdio+http
+[1/3] battery: 57 checks x 4 targets x stdio+http ...
+[2/3] differential ...
+[3/3] cross-token matrix ...
+wrote /tmp/xc-demo-out-s7hvwh8w/crosscheck.json and crosscheck.md
+  battery base      stdio pass=47 fail=0 error=0 skip=1
+  battery base      http  pass=53 fail=0 error=0 skip=1
+  battery memory    stdio pass=47 fail=0 error=0 skip=1
+  battery memory    http  pass=53 fail=0 error=0 skip=1
+  battery auth      stdio pass=47 fail=0 error=0 skip=1
+  battery auth      http  pass=53 fail=0 error=0 skip=1
+  battery resources stdio pass=48 fail=0 error=0 skip=0
+  battery resources http  pass=54 fail=0 error=0 skip=0
+  differential: 65 cases, 0 disagreements, 0 transport mismatches, 0 capability inconsistencies
+  cross-token L1   PASS
+  cross-token L2   PASS
+  cross-token L2b  PASS
+  cross-token L3   PASS
+  cross-token L3s  PASS
+CROSSCHECK PASS
+    OK  verdict PASS in 19s
+
+[3/11] battery: every (server, transport) pair ran the checks with zero failures
+    OK  402 passing check executions
+
+[4/11] differential: identical malformed inputs -> identical error codes on every server
+    OK  65 cases, 26 distinct outcomes seen, 0 disagreements
+
+[5/11] capabilities advertised == behaviour (resources.subscribe only on mcp-resource-heavy)
+    OK  4/4 servers consistent
+
+[6/11] cross-token L1/L2/L2b: different secret, different audience -> rejected; same server -> accepted
+    OK  rejection reasons seen: missing kid, signature verification failed, wrong audience
+
+[7/11] cross-token L3: same secret + audience (+ auth --allow-kidless) -> all 16 pairs accepted and usable
+    OK  32/32 accepted (16 pairs x 2 transports)
+
+[8/11] cross-token L3s: auth-hardened STRICT refuses kid-less foreign tokens, accepts everything else
+    OK  refused sources: base, memory, resources (reason: missing kid); all other pairs accepted
+
+[9/11] negative control 1: a copy of mcp-base whose signature check is disabled -> crosscheck FAILS (cross-token L1)
+    OK  exit 1; L1 memory->base accepted a foreign-secret token; battery failures: XC-AUT-03
+
+[10/11] negative control 2: a copy of mcp-base answering -32602 for unknown methods -> battery + differential FAIL
+    OK  exit 1; battery failed XC-CAP-01, XC-CAP-02, XC-CAP-04, XC-RPC-03; 3 differential disagreements
+
+[11/11] the markdown report was written and contains the matrix
+    OK  303 lines of markdown
+
+==============================================================================
+== DEMO OK - 11/11 steps passed
+==============================================================================

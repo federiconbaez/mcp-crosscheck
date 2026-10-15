@@ -1,0 +1,50 @@
+STDLIB-ONLY CHECK (ast-based; nothing was imported or executed)
+python 3.13.5, 290 stdlib modules known to this interpreter
+
+file                                 code  total  imports (stdlib/local)
+demo.py                               175    210  json,os,shutil,subprocess,sys,tempfile,time
+mcpcross/__init__.py                    6      8  
+mcpcross/__main__.py                    4      6  sys  | local: .cli
+mcpcross/battery.py                   497    651  http,json,threading,time  | local: .,.client
+mcpcross/cli.py                        85     97  argparse,json,os,sys,time  | local: .
+mcpcross/client.py                     40     49  json  | local: .
+mcpcross/crosstoken.py                 96    111  concurrent,secrets  | local: .,.client
+mcpcross/differential.py              172    203  concurrent,json  | local: .,.client
+mcpcross/jwtkit.py                     33     49  base64,json
+mcpcross/launch.py                    107    125  os,secrets,shutil,socket,subprocess,tempfile,time  | local: .
+mcpcross/report.py                    163    181  datetime,json,os,platform,subprocess,sys  | local: .
+mcpcross/runner.py                     39     44  concurrent,time  | local: .
+mcpcross/targets.py                    35     45  os
+mcpcross/wire.py                      202    236  http,json,os,queue,signal,subprocess,sys,threading
+tests/__init__.py                       0      0  
+tests/helpers.py                       27     32  os,sys
+tests/test_cli.py                      49     60  contextlib,io,json,os,tempfile,unittest  | local: mcpcross,tests.helpers
+tests/test_integration.py              91    107  os,shutil,tempfile,unittest  | local: mcpcross,tests.helpers
+tests/test_jwtkit.py                   31     42  json,unittest  | local: mcpcross
+tests/test_logic.py                   105    132  json,unittest  | local: mcpcross
+tests/test_registry.py                 45     58  re,unittest  | local: mcpcross
+tests/test_wire.py                     99    122  http,json,threading,unittest  | local: mcpcross,tests.helpers
+tools/check_doc_refs.py                51     59  glob,os,re,sys
+tools/check_stdlib_only.py            142    161  argparse,ast,json,os,subprocess,sys
+tools/gen_originality.py               72     88  hashlib,os,re,subprocess,sys
+tools/make_manifest.py                 60     73  argparse,hashlib,os,sys
+tools/mutation_sanity.py               86    101  argparse,os,shutil,subprocess,sys,tempfile,time
+
+files: 27   lines: total=3050 code=2512 comment=30 blank=508
+stdlib modules used (25): argparse, ast, base64, concurrent, contextlib, datetime, glob, hashlib, http, io, json, os, platform, queue, re, secrets, shutil, signal, socket, subprocess, sys, tempfile, threading, time, unittest
+
+GIT HISTORY (oldest first):
+655be23|Grok Bot (mcp-family build)|2026-10-15T04:00:59Z|mcp-crosscheck: wire/launch/client layers, 57-check black-box battery, differential and cross-token engines, report, CLI, tooling
+
+ 19 files changed, 2262 insertions(+)
+992d795|Grok Bot (mcp-family build)|2026-10-15T04:06:13Z|crosscheck: tests (wire with fake servers, registry, logic, CLI, integration incl. broken-copy detection), demo, mutation_sanity, evidence builder, README/AUDIT; L1 isolates the signature (found while testing: audience masked an unchecked-signature mutant)
+
+ 15 files changed, 986 insertions(+), 6 deletions(-)
+118a8c9|Grok Bot (mcp-family build)|2026-10-15T04:09:54Z|crosscheck: layer L3s (strict kid) closes mutant C6 blind spot; reason hints per layer; ORIGINALITY/SECURITY docs
+
+ 9 files changed, 139 insertions(+), 11 deletions(-)
+a3a47a9|Grok Bot (mcp-family build)|2026-10-15T04:15:35Z|crosscheck: fix reason assertion test for the L3s layer
+
+ 3 files changed, 67 insertions(+), 1 deletion(-)
+
+RESULT: PASS - zero third-party imports, no dynamic imports/exec/eval, no dependency manifests
