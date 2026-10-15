@@ -50,7 +50,7 @@ class FullFamily(unittest.TestCase):
                 for tr, v in layer["transports"].items():
                     for s, row in v["matrix"].items():
                         for d, cell in row.items():
-                            if s != d:
+                            if cell["outcome"] == "reject":
                                 self.assertIn(want[layer["layer"]], cell["reason"].lower(), (layer["layer"], tr, s, d, cell))
         l3s = [l for l in cross["layers"] if l["layer"] == "L3s"][0]
         refused = [(s, d) for v in l3s["transports"].values() for s, row in v["matrix"].items() for d, c in row.items() if c["outcome"] == "reject"]

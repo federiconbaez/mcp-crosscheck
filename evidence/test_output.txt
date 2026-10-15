@@ -1,0 +1,64 @@
+test_bad_transport_exit_2 (tests.test_cli.CliTests.test_bad_transport_exit_2) ... ok
+test_list_text_and_json (tests.test_cli.CliTests.test_list_text_and_json) ... ok
+test_missing_family_dir_exit_2 (tests.test_cli.CliTests.test_missing_family_dir_exit_2) ... ok
+test_quick_run_writes_reports (tests.test_cli.CliTests.test_quick_run_writes_reports) ... ok
+test_unknown_target_exit_2 (tests.test_cli.CliTests.test_unknown_target_exit_2) ... ok
+test_unchecked_signature_is_caught_by_cross_token_l1 (tests.test_integration.BrokenServersAreDetected.test_unchecked_signature_is_caught_by_cross_token_l1) ... ok
+test_wrong_method_not_found_code_is_caught_by_battery_and_differential (tests.test_integration.BrokenServersAreDetected.test_wrong_method_not_found_code_is_caught_by_battery_and_differential) ... ok
+test_battery_has_no_failures_on_any_target_or_transport (tests.test_integration.FullFamily.test_battery_has_no_failures_on_any_target_or_transport) ... ok
+test_cross_token_matrix (tests.test_integration.FullFamily.test_cross_token_matrix) ... FAIL
+test_differential_all_servers_agree_and_capabilities_match_behaviour (tests.test_integration.FullFamily.test_differential_all_servers_agree_and_capabilities_match_behaviour) ... ok
+test_differential_is_not_vacuous_it_sees_many_distinct_outcomes (tests.test_integration.FullFamily.test_differential_is_not_vacuous_it_sees_many_distinct_outcomes) ... ok
+test_alg_none_has_empty_signature (tests.test_jwtkit.JwtKitTests.test_alg_none_has_empty_signature) ... ok
+test_b64_roundtrip_without_padding (tests.test_jwtkit.JwtKitTests.test_b64_roundtrip_without_padding) ... ok
+test_flip_signature_bit_changes_only_signature (tests.test_jwtkit.JwtKitTests.test_flip_signature_bit_changes_only_signature) ... ok
+test_header_and_claims_decode (tests.test_jwtkit.JwtKitTests.test_header_and_claims_decode) ... ok
+test_strip_kid (tests.test_jwtkit.JwtKitTests.test_strip_kid) ... ok
+test_configs_differ_per_layer (tests.test_logic.CrossTokenLogic.test_configs_differ_per_layer) ... ok
+test_expectations_per_layer (tests.test_logic.CrossTokenLogic.test_expectations_per_layer) ... ok
+test_layers_listed_in_order (tests.test_logic.CrossTokenLogic.test_layers_listed_in_order) ... ok
+test_batch_outcomes_are_sorted_and_comparable (tests.test_logic.OutcomeTests.test_batch_outcomes_are_sorted_and_comparable) ... ok
+test_different_codes_give_different_outcomes (tests.test_logic.OutcomeTests.test_different_codes_give_different_outcomes) ... ok
+test_error_result_silence (tests.test_logic.OutcomeTests.test_error_result_silence) ... ok
+test_http_includes_status_and_code_only_strips_it (tests.test_logic.OutcomeTests.test_http_includes_status_and_code_only_strips_it) ... ok
+test_null_id_is_distinguished (tests.test_logic.OutcomeTests.test_null_id_is_distinguished) ... ok
+test_all_pass_and_skip_is_ok (tests.test_logic.ReportTests.test_all_pass_and_skip_is_ok) ... ok
+test_battery_failure_lists_detail (tests.test_logic.ReportTests.test_battery_failure_lists_detail) ... ok
+test_differential_summary_flags_everything (tests.test_logic.ReportTests.test_differential_summary_flags_everything) ... ok
+test_failure_makes_overall_fail_and_is_visible (tests.test_logic.ReportTests.test_failure_makes_overall_fail_and_is_visible) ... ok
+test_markdown_and_json_for_cross_token (tests.test_logic.ReportTests.test_markdown_and_json_for_cross_token) ... ok
+test_summarize_battery_counts (tests.test_logic.ReportTests.test_summarize_battery_counts) ... ok
+test_battery_size_floor (tests.test_registry.RegistryTests.test_battery_size_floor) ... ok
+test_check_ids_unique_and_well_formed (tests.test_registry.RegistryTests.test_check_ids_unique_and_well_formed) ... ok
+test_differential_case_names_unique_and_states_known (tests.test_registry.RegistryTests.test_differential_case_names_unique_and_states_known) ... ok
+test_every_check_documents_title_and_spec_and_transports (tests.test_registry.RegistryTests.test_every_check_documents_title_and_spec_and_transports) ... ok
+test_every_group_present (tests.test_registry.RegistryTests.test_every_group_present) ... ok
+test_http_only_and_stdio_only_checks_exist (tests.test_registry.RegistryTests.test_http_only_and_stdio_only_checks_exist) ... ok
+test_no_check_imports_family_code (tests.test_registry.RegistryTests.test_no_check_imports_family_code) ... ok
+test_select_reports_missing_siblings (tests.test_registry.RegistryTests.test_select_reports_missing_siblings) ... ok
+test_targets_cover_the_four_servers (tests.test_registry.RegistryTests.test_targets_cover_the_four_servers) ... ok
+test_bearer_and_session_handling (tests.test_wire.HttpWireTests.test_bearer_and_session_handling) ... ok
+test_big_body_413_is_read_even_if_server_hangs_up_early (tests.test_wire.HttpWireTests.test_big_body_413_is_read_even_if_server_hangs_up_early) ... ok
+test_connection_refused_is_wireerror (tests.test_wire.HttpWireTests.test_connection_refused_is_wireerror) ... ok
+test_reason_for_oauth_style_and_jsonrpc_bodies (tests.test_wire.HttpWireTests.test_reason_for_oauth_style_and_jsonrpc_bodies) ... ok
+test_bytes_frames_are_sent_verbatim (tests.test_wire.StdioWireTests.test_bytes_frames_are_sent_verbatim) ... ok
+test_dead_server_is_eof_not_a_hang (tests.test_wire.StdioWireTests.test_dead_server_is_eof_not_a_hang) ... ok
+test_garbage_gets_parse_error (tests.test_wire.StdioWireTests.test_garbage_gets_parse_error) ... ok
+test_notification_means_silence_detected_by_sentinel (tests.test_wire.StdioWireTests.test_notification_means_silence_detected_by_sentinel) ... ok
+test_notifications_before_the_answer_are_collected (tests.test_wire.StdioWireTests.test_notifications_before_the_answer_are_collected) ... ok
+test_request_gets_result (tests.test_wire.StdioWireTests.test_request_gets_result) ... ok
+test_unknown_method_is_error_with_code (tests.test_wire.StdioWireTests.test_unknown_method_is_error_with_code) ... ok
+
+======================================================================
+FAIL: test_cross_token_matrix (tests.test_integration.FullFamily.test_cross_token_matrix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/mcp-family/mcp-crosscheck/tests/test_integration.py", line 54, in test_cross_token_matrix
+    self.assertIn(want[layer["layer"]], cell["reason"].lower(), (layer["layer"], tr, s, d, cell))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'kid' not found in '' : ('L3s', 'stdio', 'base', 'resources', {'outcome': 'accept', 'usable': True, 'tools': 16, 'code': None, 'reason': '', 'expected': 'accept', 'ok': True})
+
+----------------------------------------------------------------------
+Ran 50 tests in 34.447s
+
+FAILED (failures=1)
