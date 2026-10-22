@@ -1,5 +1,14 @@
 # mcp-crosscheck
 
+> **ES:** Validación cruzada de caja negra de los cuatro servidores de mcp-family: los lanza como procesos reales (stdio y HTTP), emite tokens con sus propias CLIs y habla JSON-RPC 2.0 crudo. Python 3 stdlib, sin red.
+> Probar: `python3 -m unittest discover -s tests -t .`
+>
+> **EN:** Black-box cross-validation of the four mcp-family servers: launches them as real processes (stdio and HTTP), mints tokens with their own CLIs and speaks raw JSON-RPC 2.0. Python 3 stdlib, no network.
+> Test: `python3 -m unittest discover -s tests -t .`
+>
+> **Estado / Status:** 50 tests en verde en la box (Python 3.13.5, Linux 6.12, x86_64) el 2026-10-22; **no auditado** por un tercero / **not independently audited**. Implementación didáctica, no un IdP de producción / teaching implementation, not a production IdP. Licencia / License: Apache-2.0.
+
+
 Cross-validation of the four MCP servers of the *mcp-family* (`mcp-base`, `mcp-memory-first`, `mcp-auth-hardened`,
 `mcp-resource-heavy`). Pure Python 3 standard library (built and tested with 3.13.5), no network, no third-party imports.
 It treats the servers as **black boxes**: it never imports their code, it launches them as real processes (stdio and HTTP),

@@ -1,0 +1,24 @@
+name: ci
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { path: family/mcp-crosscheck }
+      - uses: actions/checkout@v4
+        with: { repository: federiconbaez/mcp-base, path: family/mcp-base }
+      - uses: actions/checkout@v4
+        with: { repository: federiconbaez/mcp-memory-first, path: family/mcp-memory-first }
+      - uses: actions/checkout@v4
+        with: { repository: federiconbaez/mcp-auth-hardened, path: family/mcp-auth-hardened }
+      - uses: actions/checkout@v4
+        with: { repository: federiconbaez/mcp-resource-heavy, path: family/mcp-resource-heavy }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - name: unittest (with siblings)
+        working-directory: family/mcp-crosscheck
+        run: python -m unittest discover -s tests -t . -v
